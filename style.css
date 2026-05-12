@@ -125,7 +125,6 @@ body {
 }
 
 .player-card {
-    background-image: url('./img/placeholder.jpg');
     background-size: cover;
     background-position: center;
     min-height: 400px;
@@ -144,4 +143,17 @@ body {
 .player-item {
     flex: 0 0 calc(25% - 1.5rem);
     min-width: 200px;
+}
+
+.player-content {
+    color: white;
+}
+
+.outlined-text {
+  color: white;
+  text-shadow:
+    -1px -1px 0 rgb(110, 110, 110),
+     1px -1px 0 rgb(110, 110, 110),
+    -1px  1px 0 rgb(110, 110, 110),
+     1px  1px 0 rgb(110, 110, 110);
 }
